@@ -1,21 +1,125 @@
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold-Italic.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Bold-Italic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 body {
   display: flex;
   flex-direction: row;
-  column-gap: 10px;
+  column-gap: 6px;
 
-  background-color: rgb(146, 212, 98);
+  background-color: rgb(104, 144, 184);
 
   padding: 0;
   margin: 0;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* nav bar section in css */ 
+
 .nav-bar{
   width: 15%;
   height: 100%;
-  border: solid 1px black;
+
+  background-color: rgb(125, 167, 209);
+  border-right: solid 0.6px rgba(220, 220, 220, 0.7);
+
+  display: flex;
+  flex-direction: column;
 }
+
+.title-nav-bar-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 6px;
+}
+
+.left-title-nav-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 12px;
+  margin-left: 4px;
+}
+
+.img-coreTech {
+  width: 35px;
+  height: 35px;
+}
+
+.name-company{
+  font-family: 'JetBrains Mono';
+  font-size: 0.7em;
+  color: white;
+}
+
+.logo-internet{
+  width: 20px;
+  height: 20px;
+}
+
+.right-title-nav-section{
+  margin-right: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .dashboard-information{
   width: 85%;
-  border: solid 1px black;
+
+  background-color: rgb(125, 167, 209);
+  border-left: solid 0.6px rgba(220, 220, 220, 0.7);
+}
+
+
+
+
+
+
+@media (max-width: 1000px) and (min-width: 800px) {
+    .logo-internet {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .name-company, .logo-internet {
+        display: none;
+    }
+
+    .title-nav-bar-section {
+      justify-content: center;
+    }
+
+    .left-title-nav-section{
+      margin-left: 2px;
+    }
+
+    .right-title-nav-section{
+      margin-right: 1.2px;
+    }
 }
