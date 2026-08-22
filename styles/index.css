@@ -24,6 +24,20 @@ p {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* nav bar section in css */ 
 
 .nav-bar{
@@ -35,6 +49,8 @@ p {
 
   display: flex;
   flex-direction: column;
+
+  padding: 0px 6px;
 }
 
 .title-nav-bar-section{
@@ -43,7 +59,9 @@ p {
   align-items: center;
   justify-content: space-between;
   
-  padding: 6px;
+  padding-top: 6px;
+
+  margin-bottom: 10px;
 }
 
 .left-title-nav-section{
@@ -61,7 +79,7 @@ p {
 
 .name-company{
   font-family: 'JetBrains Mono';
-  font-size: 0.7em;
+  font-size: 1em;
   color: white;
 }
 
@@ -74,10 +92,63 @@ p {
   margin-right: 4px;
 }
 
+.dashboard-title-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
+.dashboard-title {
+  color: white;
+  font-family: 'Arial';
+  font-size: 0.58em;
+  opacity: 0.9;
+}
 
+.dashboard-img {
+  width:22px;
+  height: 22px;
+  opacity: 0.9;
+}
 
+.line{
+  height: 100%;
+  border-bottom: 0.5px solid white;
 
+  margin: 2px 4px;
+}
+
+.dashboard-list-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+
+  margin-top: 4px;
+}
+
+.cyan-section, .blue-section{
+  padding-left: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+  cursor: pointer;
+
+  border-radius: 4px;
+}
+
+.cyan-section {
+  background-color: rgb(107, 159, 212);
+}
+
+.blue-section {
+  background-color: rgb(146, 181, 215);
+}
+
+.dash-section-text {
+  color: white;
+  font-size: 0.7em;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 
 
@@ -121,5 +192,9 @@ p {
 
     .right-title-nav-section{
       margin-right: 1.2px;
+    }
+
+    .dashboard-title {
+      font-size: 0.44em;
     }
 }
