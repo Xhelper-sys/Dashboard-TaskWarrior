@@ -7,6 +7,9 @@
   font-display: swap;
 }
 
+/* General */ 
+/**//**//**//**//**//**//**//**//**//**//**//**/
+
 body {
   display: flex;
   flex-direction: row;
@@ -24,21 +27,8 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* nav bar section in css */ 
+/**//**//**//**//**//**//**//**//**//**//**//**/
 
 .nav-bar{
   width: 15%;
@@ -52,6 +42,9 @@ p {
 
   padding: 0px 6px;
 }
+
+
+/* title box for nav bar section */
 
 .title-nav-bar-section{
   display: flex;
@@ -72,9 +65,18 @@ p {
   margin-left: 4px;
 }
 
+.right-title-nav-section{
+  margin-right: 4px;
+}
+
 .img-coreTech {
   width: 35px;
   height: 35px;
+}
+
+.logo-internet{
+  width: 20px;
+  height: 20px;
 }
 
 .name-company{
@@ -83,14 +85,10 @@ p {
   color: white;
 }
 
-.logo-internet{
-  width: 20px;
-  height: 20px;
-}
 
-.right-title-nav-section{
-  margin-right: 4px;
-}
+
+/* dashboard box section */
+/**//**//**//**//**//**//**//**//**//**//**//**/
 
 .dashboard-title-box {
   display: flex;
