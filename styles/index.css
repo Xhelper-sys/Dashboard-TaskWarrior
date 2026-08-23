@@ -176,7 +176,6 @@ p {
   align-items: center;
 
   width: 100%;
-  background-color: rgb(137, 42, 164);
 }
 
 .section-left-header{
@@ -199,6 +198,111 @@ p {
 .calendar-icons {
   width: 19px;
   margin-bottom: 2px;
+}
+
+.section-right-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flag-french-svg {
+  width: 26px;
+  margin: 0px 10px;
+}
+
+.french-text {
+  color: white;
+  font-family: 'JetBrains Mono';
+  font-size: 0.8em;
+}
+
+.notification-icon {
+  width: 24px;
+  margin: 0px 10px;
+}
+
+.header-section-sub-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-section-sub-left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-right: 68px;
+}
+
+.notification-container{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+
+  position: relative;
+}
+
+.red-box{
+  position: absolute;
+  z-index: 999;
+  top:3px;
+  right: 14px;
+
+  background-color: red;
+  border-radius: 100px;
+
+  color: white;
+  font-family: 'Arial';
+  font-size: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  width: 10px;
+  height: 10px;
+
+}
+
+.name-profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-left: 12px;
+
+  column-gap: 12px;
+}
+
+.name-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items:end;
+}
+
+.main-name-text {
+  color: white;
+  font-family: 'Arial';
+  font-size: 15px;
+}
+
+.second-text {
+  color: rgb(228, 228, 228);
+  font-size: 10px;
+  font-family: 'Arial';
+  display: inline-block;
+}
+
+.profile-img{
+  width:30px;
+  border-radius: 100px;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: -2px;
 }
 
 @media (max-width: 1000px) and (min-width: 800px) {
