@@ -162,12 +162,44 @@ p {
 
   background-color: rgb(125, 167, 209);
   border-left: solid 0.6px rgba(220, 220, 220, 0.7);
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px 10px;
 }
 
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
+  width: 100%;
+  background-color: rgb(137, 42, 164);
+}
 
+.section-left-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
+  column-gap: 10px;
+}
 
+.message-icons {
+  width: 21px;
+}
+
+.mail-icons {
+  width:21px;
+  margin-bottom: 3px;
+}
+
+.calendar-icons {
+  width: 19px;
+  margin-bottom: 2px;
+}
 
 @media (max-width: 1000px) and (min-width: 800px) {
     .logo-internet {
