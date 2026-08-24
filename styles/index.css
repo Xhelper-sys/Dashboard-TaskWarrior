@@ -312,6 +312,11 @@ p {
   flex-direction: column;
 }
 
+.third-section{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 10px;
+}
 
 @media (max-width: 1000px) and (min-width: 800px) {
     .logo-internet {
