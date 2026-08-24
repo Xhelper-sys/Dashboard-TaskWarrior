@@ -1,4 +1,4 @@
-[
+export const taskList = [
   {
     "id": 0,
     "description": "Brosser les dents",
@@ -54,3 +54,5 @@
     "urgency": 6.03836
   }
 ]
+
+export default taskList;
